@@ -1,11 +1,12 @@
 .Collections {
   @include flexProperties(center, space-between);
   flex-wrap: wrap;
+  padding: 10px;
   .colltions-right {
     @include flexProperties(center, space-between);
     gap: 150px;
     .colltions-right-one {
-      margin-left: 70px;
+      margin-left: 50px;
       .colltions-right-p {
         color: $dark-grey;
         font-size: 14px;
@@ -44,23 +45,27 @@
 
 @media (max-width: $md) {
   .Collections {
-    padding: 10px;
     background-color: rebeccapurple;
     .colltions-right {
       @include flexProperties(center, space-between);
-      gap: 10px;
+      gap: 200px;
+      padding: 10px 30px;
       margin-left: 0px;
       .colltions-right-one {
+        margin-left: 0px;
+
         .colltions-right-p {
           color: $dark-grey;
           font-size: 14px;
-          margin-left: -10px;
+          margin-left: 0px;
         }
       }
       .colltions-right-one-para {
+        display: flex;
+        gap: 20px;
         .colltions-right-two {
           text-decoration: none;
-          margin-right: 40px;
+          margin-right: 0px;
           color: $dark-grey;
           font-size: 14px;
         }
@@ -74,12 +79,14 @@
 
 @media (max-width: $sm) {
   .Collections {
-    padding: 10px;
     .colltions-right {
       @include flexProperties(start, start);
-      gap: 80px;
+      gap: 120px;
+      padding: 10px 30px;
       margin-left: 0px;
       .colltions-right-one {
+        margin-left: 0px;
+
         .colltions-right-p {
           margin-left: 0px;
           font-size: 12px;
@@ -87,7 +94,7 @@
       }
       .colltions-right-one-para {
         display: flex;
-        gap: 15px;
+        gap: 25px;
         .colltions-right-two {
           text-decoration: none;
           margin-right: 0px;
