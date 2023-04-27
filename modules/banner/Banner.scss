@@ -1,0 +1,129 @@
+.Banner {
+  @include flexProperties(center, space-between);
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  .banner-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    .singlenft {
+      text-decoration: none;
+      color: $black;
+      .banner-left-one {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        &:hover {
+          background-color: $grey-color;
+          padding: 8px;
+          border-radius: 10px;
+        }
+        .banner-left-one-number {
+          font-size: 16px;
+          color: $dark-grey;
+        }
+        .banner-left-one-img {
+          height: 80px;
+          width: 80px;
+          border-radius: 10px;
+        }
+        .banner-left-one-head {
+          padding: 10px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .banner-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .singleright {
+      text-decoration: none;
+      color: $black;
+      .banner-right-one {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        &:hover {
+          background-color: $grey-color;
+          padding: 8px;
+          border-radius: 10px;
+        }
+        .banner-right-one-number {
+          font-size: 16px;
+          color: $dark-grey;
+        }
+        .banner-right-one-img {
+          height: 80px;
+          width: 80px;
+          border-radius: 10px;
+        }
+        .banner-right-one-head {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .Banner {
+    .banner-left {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      flex-wrap: wrap;
+      .singlenft {
+        .banner-left-one {
+          gap: 25px;
+          &:hover {
+          }
+          .banner-left-one-number {
+            font-size: 14px;
+            color: $dark-grey;
+          }
+          .banner-left-one-img {
+            height: 50px;
+            width: 50px;
+          }
+          .banner-left-one-head {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .banner-right {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .singleright {
+        .banner-right-one {
+          display: flex;
+          align-items: center;
+          gap: 25px;
+          &:hover {
+            background-color: $grey-color;
+            // padding: 8px;
+            border-radius: 10px;
+          }
+          .banner-right-one-number {
+            font-size: 16px;
+            color: $dark-grey;
+          }
+          .banner-right-one-img {
+            height: 50px;
+            width: 50px;
+            border-radius: 10px;
+          }
+          .banner-right-one-head {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

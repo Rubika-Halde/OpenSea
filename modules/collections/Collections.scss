@@ -1,0 +1,100 @@
+.Collections {
+  @include flexProperties(center, space-between);
+  flex-wrap: wrap;
+  .colltions-right {
+    @include flexProperties(center, space-between);
+    gap: 200px;
+    .colltions-right-one {
+      margin-left: 70px;
+      .colltions-right-p {
+        color: $dark-grey;
+        font-size: 14px;
+      }
+    }
+    .colltions-right-one-para {
+      .colltions-right-two {
+        text-decoration: none;
+        margin-right: 40px;
+        color: $dark-grey;
+        font-size: 14px;
+      }
+    }
+  }
+  .colltions-left {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 170px;
+    .colltions-left-one {
+      p {
+        color: $dark-grey;
+        font-size: 14px;
+      }
+    }
+    .colltions-left-one-price {
+      a {
+        text-decoration: none;
+        margin-right: 20px;
+        color: $dark-grey;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: $md) {
+  .Collections {
+    padding: 10px;
+    background-color: rebeccapurple;
+    .colltions-right {
+      // @include flexProperties(center, space-between);
+      // gap: 180px;
+      margin-left: 0px;
+      .colltions-right-one {
+        .colltions-right-p {
+          color: $dark-grey;
+          font-size: 14px;
+          margin-left: -10px;
+        }
+      }
+      .colltions-right-one-para {
+        .colltions-right-two {
+          text-decoration: none;
+          margin-right: 40px;
+          color: $dark-grey;
+          font-size: 14px;
+        }
+      }
+    }
+    .colltions-left {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .Collections {
+    padding: 10px;
+    .colltions-right {
+      @include flexProperties(center, space-between);
+      gap: 80px;
+      margin-left: 0px;
+      .colltions-right-one {
+        .colltions-right-p {
+          margin-left: -10px;
+        }
+      }
+      .colltions-right-one-para {
+        .colltions-right-two {
+          text-decoration: none;
+          margin-right: 40px;
+          color: $dark-grey;
+          font-size: 14px;
+        }
+      }
+    }
+    .colltions-left {
+      display: none;
+    }
+  }
+}

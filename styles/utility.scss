@@ -1,0 +1,19 @@
+@mixin flexProperties($align, $justify) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+$white-color: #fff;
+$grey-color: #e5e8eb;
+$dark-grey:#ada6a6;
+$black: #000;
+$navy-color:rgb(23, 21, 35);
+
+
+// media Queries
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;

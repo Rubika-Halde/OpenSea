@@ -1,0 +1,26 @@
+.FooterB {
+  @include flexProperties(center, space-between);
+  background-color: rgb(44, 92, 176);
+  padding-left: 40px;
+  padding-right: 40px;
+  .FooterB-left {
+    color: $dark-grey;
+    font-size: 12px;
+  }
+  .FooterB-right {
+    font-size: 12px;
+    display: flex;
+    gap: 20px;
+    a {
+      text-decoration: none;
+      color: $dark-grey;
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .FooterB {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

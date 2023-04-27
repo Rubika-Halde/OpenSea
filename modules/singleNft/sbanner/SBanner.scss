@@ -1,0 +1,81 @@
+.SBanner {
+  .sbanner-img-one {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .sbanner-img {
+    position: relative;
+    .sbanner-img-two {
+      position: absolute;
+      bottom: -25px;
+      border-radius: 10px;
+      left: 30px;
+      height: 200px;
+      width: 200px;
+      background-color: $white-color;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      padding: 8px;
+    }
+  }
+  .sbanner-text {
+    padding-left: 20px;
+    .sbanner-top {
+      margin-bottom: 5px;
+      margin-top: 30px;
+      @include flexProperties(center, space-between);
+
+      .sbanner-icon {
+        @include flexProperties(center, space-between);
+
+        a {
+          color: $black;
+          padding: 15px 15px;
+          font-size: 22px;
+        }
+        a:hover {
+          border-radius: 100%;
+          background-color: $white-color;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+      }
+    }
+    .sbanner-text-para {
+      margin-bottom: 5px;
+    }
+    .sbanner-text-para-one {
+      margin-bottom: 5px;
+    }
+    .sparaMore {
+      font-size: 16px;
+      max-width: 850px;
+      margin-bottom: 10px;
+    }
+    .sbanner-wrapper {
+      @include flexProperties(center, start);
+      gap: 45px;
+      flex-wrap: wrap;
+      .sbanner-wrapper-head {
+        h3 {
+          font-size: 18px;
+        }
+        p {
+          color: $grey-color;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .SBanner {
+    .sbanner-text {
+      .sbanner-top {
+        .sbanner-icon {
+          display: none;
+        }
+      }
+    }
+  }
+}
