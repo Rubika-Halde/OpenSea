@@ -73,19 +73,27 @@
   .footerT {
     .FooterTop {
       justify-content: center;
-      padding: 40px 10px;
-      gap: 30px;
+      padding: 20px 10px;
+      gap: 10px;
       .footerTop-left {
         .footerTop-left-head {
           text-align: center;
         }
         .footerTop-left-para {
           text-align: center;
-          max-width: 300px;
+          max-width: 0px;
           margin-bottom: 20px;
         }
         .footerTop-input {
           flex-direction: column;
+          .input {
+            padding: 10px 10px;
+          }
+          .button {
+            border: none;
+            padding: 10px 10px;
+            border-radius: 10px;
+          }
         }
       }
       .footerTop-right {
@@ -111,8 +119,8 @@
   .footerT {
     .FooterTop {
       justify-content: center;
-      padding: 40px 10px;
-      gap: 30px;
+      padding: 20px 10px;
+      gap: 20px;
       .footerTop-left {
         .footerTop-left-head {
           text-align: center;
@@ -124,10 +132,10 @@
         }
         .footerTop-input {
           .input {
-            padding: 10px 60px;
+            padding: 10px 10px;
           }
           .button {
-            padding: 10px 50px;
+            padding: 8px 15px;
           }
         }
       }
@@ -138,9 +146,10 @@
         .icons {
           gap: 15px;
           .icons-a {
+            text-align: center;
             border: none;
-            padding: 20px 20px;
-            font-size: 22px;
+            padding: 15px 15px;
+            font-size: 18px;
           }
         }
       }

@@ -77,17 +77,18 @@
     padding: 10px;
     .colltions-right {
       @include flexProperties(center, space-between);
-      gap: 80px;
+      gap: 60px;
       margin-left: 0px;
       .colltions-right-one {
         .colltions-right-p {
-          margin-left: -10px;
+          margin-left: 0px;
         }
       }
       .colltions-right-one-para {
         .colltions-right-two {
           text-decoration: none;
-          margin-right: 40px;
+          margin-right: 0px;
+          margin-left: 20px;
           color: $dark-grey;
           font-size: 14px;
         }

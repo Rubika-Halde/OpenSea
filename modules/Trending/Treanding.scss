@@ -1,6 +1,5 @@
 .Trending {
   @include flexProperties(center, space-between);
-  margin-left: 20px;
   flex-wrap: wrap;
   padding: 30px;
   .trending-left {
@@ -109,6 +108,19 @@
 @media (max-width: $md) {
   .Trending {
     position: relative;
+    .trending-left {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .trending-left-p {
+        border-bottom: 3px solid $black;
+        font-size: 20px;
+      }
+      .trending-left-para {
+        color: $dark-grey;
+        font-size: 20px;
+      }
+    }
     .trending-right {
       .trending-right-a {
         display: none;
@@ -131,7 +143,9 @@
 
 @media (max-width: $sm) {
   .Trending {
+    padding: 10px;
     position: relative;
+
     .trending-right {
       .trending-right-a {
         display: none;
@@ -139,13 +153,19 @@
       nav {
         display: none;
       }
+
       .trending-right-btn {
         background-color: $white-color;
         border: 1.5px solid $grey-color;
-        padding: 5px 35px;
+        padding: 8px 10px;
         border-radius: 5px;
         color: $black;
-        font-size: 18px;
+        //   font-weight: bold;
+        font-size: 16px;
+      }
+      .trending-right-btn:hover {
+        border: none;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       }
     }
   }

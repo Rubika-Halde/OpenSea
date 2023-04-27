@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className="Banner">
       <div className="banner-left">
-        <Link href="singlenft" className='singlenft'>
+        <Link href="singlenft" className="singlenft">
           <div className="banner-left-one">
             <p className="banner-left-one-number">1</p>
             <img
@@ -13,12 +13,12 @@ const Banner = () => {
               src="https://i.seadn.io/gcs/files/640462339e02b51eef145ed269efff8b.jpg?auto=format&w=256"
               alt=""
             />
-            <h2 className="banner-left-one-head">Aishigon ED</h2>
+            <h2 className="banner-left-one-head">Aishigon</h2>
             <h2 className="banner-left-one-head">0.02ETH</h2>
             <h2 className="banner-left-one-head">7.3ETH</h2>
           </div>
         </Link>
-        <Link href="singlenft" className='singlenft'>
+        <Link href="singlenft" className="singlenft">
           <div className="banner-left-one">
             <p className="banner-left-one-number">2</p>
             <img
@@ -26,12 +26,12 @@ const Banner = () => {
               src="https://i.seadn.io/gcs/files/7ed181433ee09174f09a0e31b563d313.png?auto=format&w=256"
               alt=""
             />
-            <h2 className="banner-left-one-head">Gemesis TI</h2>
+            <h2 className="banner-left-one-head">Gemesis</h2>
             <h2 className="banner-left-one-head">0.03ETH</h2>
             <h2 className="banner-left-one-head">1.5ETH</h2>
           </div>
         </Link>
-        <Link href="singlenft" className='singlenft'>
+        <Link href="singlenft" className="singlenft">
           <div className="banner-left-one">
             <p className="banner-left-one-number">3</p>
             <img
@@ -39,12 +39,12 @@ const Banner = () => {
               src="https://i.seadn.io/gcs/files/89e91706142a1003abab1d864370fe62.png?auto=format&w=256"
               alt=""
             />
-            <h2 className="banner-left-one-head">Outlaws AI</h2>
+            <h2 className="banner-left-one-head">Outlaws</h2>
             <h2 className="banner-left-one-head">0.03ETH</h2>
-            <h2 className="banner-left-one-head">0.79ETH</h2>
+            <h2 className="banner-left-one-head">0.7ETH</h2>
           </div>
         </Link>
-        <Link href="singlenft" className='singlenft'>
+        <Link href="singlenft" className="singlenft">
           <div className="banner-left-one">
             <p className="banner-left-one-number">4</p>
             <img
@@ -52,12 +52,12 @@ const Banner = () => {
               src="https://i.seadn.io/gcs/files/151bad2b97159b07aa18eef324681b94.png?auto=format&w=256"
               alt=""
             />
-            <h2 className="banner-left-one-head">Timeless TI</h2>
+            <h2 className="banner-left-one-head">Timeless</h2>
             <h2 className="banner-left-one-head">0.20ETH</h2>
             <h2 className="banner-left-one-head">4.2ETH</h2>
           </div>
         </Link>
-        <Link href="singlenft" className='singlenft'>
+        <Link href="singlenft" className="singlenft">
           <div className="banner-left-one">
             <p className="banner-left-one-number">5</p>
             <img
@@ -65,13 +65,13 @@ const Banner = () => {
               src="https://openseauserdata.com/files/89e4433096419ec47ae786af914e779f.svg"
               alt=""
             />
-            <h2 className="banner-left-one-head">opepen Ed</h2>
+            <h2 className="banner-left-one-head">opepen</h2>
             <h2 className="banner-left-one-head">0.36ETH</h2>
             <h2 className="banner-left-one-head">8.1ETH</h2>
           </div>
         </Link>
       </div>
-      <div className="banner-right" >
+      <div className="banner-right">
         <Link href="singlenft" className="singleright">
           <div className="banner-right-one">
             <p className="banner-right-one-number">6</p>
