@@ -82,17 +82,18 @@
       .colltions-right-one {
         .colltions-right-p {
           margin-left: 0px;
+          font-size: 12px;
         }
       }
       .colltions-right-one-para {
         display: flex;
-        gap: 20px;
+        gap: 15px;
         .colltions-right-two {
           text-decoration: none;
           margin-right: 0px;
           margin-left: 0px;
           color: $dark-grey;
-          font-size: 14px;
+          font-size: 12px;
         }
       }
     }
