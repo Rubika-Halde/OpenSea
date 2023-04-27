@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   .colltions-right {
     @include flexProperties(center, space-between);
-    gap: 200px;
+    gap: 150px;
     .colltions-right-one {
       margin-left: 70px;
       .colltions-right-p {
@@ -47,8 +47,8 @@
     padding: 10px;
     background-color: rebeccapurple;
     .colltions-right {
-      // @include flexProperties(center, space-between);
-      // gap: 180px;
+      @include flexProperties(center, space-between);
+      gap: 10px;
       margin-left: 0px;
       .colltions-right-one {
         .colltions-right-p {
@@ -76,8 +76,8 @@
   .Collections {
     padding: 10px;
     .colltions-right {
-      @include flexProperties(center, space-between);
-      gap: 60px;
+      @include flexProperties(start, start);
+      gap: 80px;
       margin-left: 0px;
       .colltions-right-one {
         .colltions-right-p {
@@ -85,10 +85,12 @@
         }
       }
       .colltions-right-one-para {
+        display: flex;
+        gap: 20px;
         .colltions-right-two {
           text-decoration: none;
           margin-right: 0px;
-          margin-left: 20px;
+          margin-left: 0px;
           color: $dark-grey;
           font-size: 14px;
         }

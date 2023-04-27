@@ -12,9 +12,9 @@ const AnchorTag = () => {
           <a href="#">Art</a>
           <a href="#">All</a>
           <a href="#">Gaming</a>
-          <a href="#">Memberships</a>
+          <a href="#">Member</a>
           <a href="#">PFPs</a>
-          <a href="#">Photography</a>
+          <a href="#">Photos</a>
         </div>
         <div className="swiper-wrapper">
           <Swiper
