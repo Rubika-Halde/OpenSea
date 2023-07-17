@@ -1,5 +1,8 @@
 # OpenSea Clone using Next.js
 
+#### Snapshot of the project
+![MarineGEO circle logo](public\snapshot.png "MarineGEO logo")
+
 ## System Requirements
 
     # Node.js 16.8 or later.
